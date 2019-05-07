@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.header {
+  background: #777;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+p{
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+a:link, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.image-grid {
+  width: 100%;
+  max-width: 1310px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10px 5px 0;
+}
+
+.image__cell {
+  float: left;
+  position: relative;
+}
+
+.image--basic {
+  padding: 0px;
+}
+
+.basic__img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.image__cell.is-collapsed .image--basic {
+  cursor: pointer;
+}
+
+.image__cell.is-expanded .image--expand {
+  max-height: 1500px;
+  margin-bottom: 10px;
+}
+
+.image--expand {
+  position: relative;
+  left: -5px;
+  padding: 0 15px;
+  box-sizing: content-box;
+  overflow: hidden;
+  background: #777;
+  max-height: 0;
+  transition: max-height .3s ease-in-out,margin-bottom .1s .2s;
+}
+
+.image__cell.is-collapsed .arrow--up {
+  height: 10px;
+  width: 100%;
+}
+
+.image__cell.is-expanded .arrow--up {
+  border-bottom: 8px solid #777;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  height: 0;
+  width: 0;
+  margin: 2px auto 0;
+}
+
+.image--large {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 10px 120px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 530px) {
+
+  .image__cell {
+      width: 50%;
+  }
+
+  .image__cell:nth-of-type(2n+2) .image--expand {
+      margin-left: -100%;
+  }
+
+  .image__cell:nth-of-type(2n+3) {
+      clear:left;
+  }
+
+  .image--expand {
+      width: 200%;
+  }
+
+}
+
+@media only screen and (min-width: 531px) {
+  .image__cell {
+      width: 20%;
+  }
+  
+  .image__cell:nth-of-type(5n+2) .image--expand {
+    margin-left: -100%;
+  }
+
+  .image__cell:nth-of-type(5n+3) .image--expand {
+    margin-left: -200%;
+  }
+
+  .image__cell:nth-of-type(5n+4) .image--expand {
+    margin-left: -300%;
+  }
+  
+  .image__cell:nth-of-type(5n+5) .image--expand {
+    margin-left: -400%;
+  }
+
+  .image__cell:nth-of-type(5n+6) {
+    clear: left;
+  }
+  
+  .image--expand {
+    width: 500%;
+  }
+  
+}
