@@ -6,7 +6,7 @@ function cells(count) {
   
   var html = '',
       // déclaration d'une liste d'URLs
-      images =['https://emlyon.github.io/makerslab/media/background1.jpg', 'https://emlyon.github.io/makerslab/media/background2.jpg', 'https://emlyon.github.io/makerslab/media/background3.jpg', 'https://emlyon.github.io/makers-skills/imgs/3D_bootcamp5.jpg'],
+      images =['https://sssjv.github.io/suosikkiautoani/1.png', 'https://sssjv.github.io/suosikkiautoani/1.png', 'https://sssjv.github.io/suosikkiautoani/1.png', 'https://sssjv.github.io/suosikkiautoani/1.png'],
       url,
       imageNum;
   
