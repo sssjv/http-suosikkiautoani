@@ -10,11 +10,18 @@ function cells(count) {
 	       'https://techcrunch.com/wp-content/uploads/2018/06/L1160818-1.jpg?w=1390&crop=1', 
 	       'https://www.extremetech.com/wp-content/uploads/2019/03/250104_Volvo_Cars_to_deploy_in-car_cameras_and_intervention_against_intoxication-640x354.jpg', 
 	       'https://www.driving.co.uk/s3/st-driving-prod/uploads/2015/08/dvd-players-header.jpg',
-      
-      		'http://myufcw.org/files/2017/01/bluecars.jpg',
-		'https://www.sixt.co.uk/fileadmin/user_upload/ONM-3759_500x280_2-long-term-rental-discount.jpg',
-		'https://www.enterprise.ca/content/dam/ent-brand/replacement-rental-launchpad-review.jpg.wrend.480.270.jpeg',
-		'https://thenypost.files.wordpress.com/2019/01/car-rental.jpg?quality=90&strip=all&w=618&h=410&crop=1'],
+	       'http://myufcw.org/files/2017/01/bluecars.jpg',
+	       'https://www.sixt.co.uk/fileadmin/user_upload/ONM-3759_500x280_2-long-term-rental-discount.jpg',
+	       'https://www.enterprise.ca/content/dam/ent-brand/replacement-rental-launchpad-review.jpg.wrend.480.270.jpeg',
+	       'https://thenypost.files.wordpress.com/2019/01/car-rental.jpg?quality=90&strip=all&w=618&h=410&crop=1',
+	       'https://steamcdn-a.akamaihd.net/steam/apps/516750/ss_56ac2d9cdb5bee76ba289b201ee8d182b560cbbb.1920x1080.jpg?t=1554875474',
+	       'https://static-cdn.jtvnw.net/ttv-boxart/My%20Summer%20Car.jpg',
+	       'https://www.amistech.com/msc/game/06.jpg',
+	       'https://i.ytimg.com/vi/6SY5S2OT7HE/maxresdefault.jpg',
+	       'https://www.enterprise.com/content/dam/ent-brand/GettyImages-453470317_1920x1080.jpg',
+	       'https://www.mykonosrentacar.com/images/mykonos_rentacar_heroimage_3.jpg?crc=317217613',
+	       'https://www.enterprise.com/content/dam/ent-brand/LOB/ENTERPRISE_02_SH_46_R97_78_2_1920x1080.jpg',
+	       'https://www.almuftah.com/sites/default/files/styles/thumb_754x328/public/rent-a-car_1.png?itok=h3_RUKwx'],
       url,
       imageNum;
   
