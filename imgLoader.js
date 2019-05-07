@@ -27,7 +27,7 @@ function cells(count) {
 	      '<div class="arrow--up"></>' +
 	    '</div>' +
 	    '<div class="image--expand">' +
-          '<p>'+'adsense'+'</p>'+
+          '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-1888985435305538",enable_page_level_ads: true});</script>'+
           '<a target="blank" href="'+ url +'"><img class="image--large" src="'+ url +'" alt="'+ url +'" /></a>' +
           '<p>Source : '+'<a target="blank" href="'+ url +'">'+url+'</a>'+'</p>'+
           '<p>'+'adsense'+'</p>'+
