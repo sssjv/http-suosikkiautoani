@@ -1,7 +1,7 @@
 //imgLoader
 
 //apend cells to grid
-$('.image-grid').empty().html(cells(100));
+//$('.image-grid').empty().html(cells(100));
 
 
 //bind click events
