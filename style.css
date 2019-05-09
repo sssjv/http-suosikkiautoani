@@ -127,6 +127,11 @@ p a:hover {
   color: black;
 }
 
+#title{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 @media only screen and (max-width: 530px) {
 
   .image__cell {
