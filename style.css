@@ -103,7 +103,7 @@ p a:hover {
 }
 
 .image--large {
-  max-width: 100%;
+  width: 90%;
   height: auto;
   display: block;
   padding: 10px 0px;
