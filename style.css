@@ -56,10 +56,6 @@ p a:hover {
   position: relative;
 }
 
-.image--basic {
-  padding: 0px;
-}
-
 .basic__img {
   display: block;
   width: 250px;
