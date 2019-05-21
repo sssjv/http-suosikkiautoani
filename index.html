@@ -887,7 +887,31 @@
 
 
   </section>
+  <script type="text/javascript">
+    let section = document.querySelector('section.image-grid')
 
+    Array.prototype.permShuffle = function() {
+      for( let i = this.length - 1; i; i -- ) {
+        let randomIndex = ~~( Math.random() * ( i + 1 ) );
+        [ this[ i ], this[ randomIndex ] ] = [ this[ randomIndex ], this[ i ] ]; // swap
+      }
+      return this;
+    };
+
+    let divs = [...section.querySelectorAll('.image__cell.is-collapsed')]
+    divs.permShuffle()
+
+    section.innerHTML = ''
+
+    divs.forEach((div,i) => {
+      div.querySelectorAll('div>a').forEach(a => a.href = `${a.href.substr(0, a.href.length - 1) + i}`)
+      let img = div.querySelector('.basic__img')
+      img.id = `${img.id.substr(0, img.id.length - 1) +i}`
+
+      section.appendChild(div)
+    })
+
+  </script>
   <!-- SCRIPTS -->
   <script src="imgLoader.js"></script>
 </body>
