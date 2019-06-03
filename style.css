@@ -2,19 +2,7 @@ body {
   margin: 0;
 }
 
-@media only screen and (max-width: 600px) {
-  p {
-    font-size: 2em;
-  }
-  .basic__img {
-    display: block;
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    margin: 0 auto;
-  }
 
-}
 
 html {
   box-sizing: border-box;
@@ -140,7 +128,19 @@ p a:hover {
   font-size: 1.5em;
 }
 
-/*@media only screen and (max-width: 530px) {
+
+@media only screen and (max-width: 530px) {
+  p {
+    font-size: 2em;
+  }
+
+  .basic__img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
 
   .image__cell {
       width: 50%;
@@ -160,6 +160,7 @@ p a:hover {
 
 }
 
+/*
 @media only screen and (min-width: 531px) {
   .image__cell {
       width: 20%;
@@ -190,3 +191,5 @@ p a:hover {
   }
 
 }
+
+*/
