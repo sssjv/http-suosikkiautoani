@@ -140,7 +140,7 @@ p a:hover {
   font-size: 1.5em;
 }
 
-@media only screen and (max-width: 530px) {
+/*@media only screen and (max-width: 530px) {
 
   .image__cell {
       width: 50%;
