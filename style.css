@@ -2,7 +2,19 @@ body {
   margin: 0;
 }
 
-/* apply a natural box layout model to all elements, but allowing components to change */
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 2em;
+  }
+  .basic__img {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+}
 
 html {
   box-sizing: border-box;
@@ -152,7 +164,7 @@ p a:hover {
   .image__cell {
       width: 20%;
   }
-  
+
   .image__cell:nth-of-type(5n+2) .image--expand {
     margin-left: -100%;
   }
@@ -164,7 +176,7 @@ p a:hover {
   .image__cell:nth-of-type(5n+4) .image--expand {
     margin-left: -300%;
   }
-  
+
   .image__cell:nth-of-type(5n+5) .image--expand {
     margin-left: -400%;
   }
@@ -172,9 +184,9 @@ p a:hover {
   .image__cell:nth-of-type(5n+6) {
     clear: left;
   }
-  
+
   .image--expand {
     width: 500%;
   }
-  
+
 }
