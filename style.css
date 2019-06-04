@@ -2,8 +2,6 @@ body {
   margin: 0;
 }
 
-
-
 html {
   box-sizing: border-box;
 }
@@ -149,10 +147,9 @@ p a:hover {
 
 }
 
-
 @media only screen and (min-width: 531px) {
   .image__cell {
-      width: 17%;
+      width: 20%;
   }
 
   .image__cell:nth-of-type(5n+2) .image--expand {
@@ -178,4 +175,5 @@ p a:hover {
   .image--expand {
     width: 500%;
   }
+
 }
